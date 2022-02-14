@@ -1,2 +1,5 @@
 # MVVM---Wheather-App
-# weather
+
+
+Weather app using MVVM Design Pattern.
+Using https://openweathermap.org/ api.
