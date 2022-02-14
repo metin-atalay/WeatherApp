@@ -9,21 +9,41 @@
 /* Begin PBXBuildFile section */
 		F65A49A727B81998005B688B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65A49A627B81998005B688B /* AppDelegate.swift */; };
 		F65A49A927B81998005B688B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65A49A827B81998005B688B /* SceneDelegate.swift */; };
-		F65A49AB27B81998005B688B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65A49AA27B81998005B688B /* ViewController.swift */; };
 		F65A49AE27B81998005B688B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F65A49AC27B81998005B688B /* Main.storyboard */; };
 		F65A49B027B81999005B688B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F65A49AF27B81999005B688B /* Assets.xcassets */; };
 		F65A49B327B81999005B688B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F65A49B127B81999005B688B /* LaunchScreen.storyboard */; };
+		F65A49BC27B8214F005B688B /* WeatherListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65A49BB27B8214F005B688B /* WeatherListTableViewController.swift */; };
+		F65A49BE27B82184005B688B /* AddWheatherCityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65A49BD27B82184005B688B /* AddWheatherCityController.swift */; };
+		F65A49C127B82744005B688B /* WheatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65A49C027B82744005B688B /* WheatherTableViewCell.swift */; };
+		F6EB950527B8F7E40092463B /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EB950427B8F7E40092463B /* WebService.swift */; };
+		F6EB950827B900520092463B /* WheatherResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EB950727B900520092463B /* WheatherResponse.swift */; };
+		F6EB950B27B9047B0092463B /* AddWeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EB950A27B9047B0092463B /* AddWeatherViewModel.swift */; };
+		F6EB950E27B904BD0092463B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EB950D27B904BD0092463B /* Constants.swift */; };
+		F6EB951127B905630092463B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EB951027B905630092463B /* Extensions.swift */; };
+		F6EB951327B909670092463B /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EB951227B909670092463B /* WeatherViewModel.swift */; };
+		F6EB951527B91C020092463B /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EB951427B91C020092463B /* SettingsTableViewController.swift */; };
+		F6EB951727B91C170092463B /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EB951627B91C170092463B /* SettingsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F65A49A327B81998005B688B /* GoodWheather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodWheather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F65A49A627B81998005B688B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F65A49A827B81998005B688B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F65A49AA27B81998005B688B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F65A49AD27B81998005B688B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F65A49AF27B81999005B688B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F65A49B227B81999005B688B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F65A49B427B81999005B688B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F65A49BB27B8214F005B688B /* WeatherListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherListTableViewController.swift; sourceTree = "<group>"; };
+		F65A49BD27B82184005B688B /* AddWheatherCityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWheatherCityController.swift; sourceTree = "<group>"; };
+		F65A49C027B82744005B688B /* WheatherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherTableViewCell.swift; sourceTree = "<group>"; };
+		F6EB950427B8F7E40092463B /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		F6EB950727B900520092463B /* WheatherResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherResponse.swift; sourceTree = "<group>"; };
+		F6EB950A27B9047B0092463B /* AddWeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWeatherViewModel.swift; sourceTree = "<group>"; };
+		F6EB950D27B904BD0092463B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F6EB951027B905630092463B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F6EB951227B909670092463B /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		F6EB951427B91C020092463B /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		F6EB951627B91C170092463B /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +76,81 @@
 		F65A49A527B81998005B688B /* GoodWheather */ = {
 			isa = PBXGroup;
 			children = (
+				F6EB950F27B905510092463B /* Extensions */,
+				F6EB950C27B904A80092463B /* Utils */,
+				F6EB950927B904630092463B /* View Models */,
+				F6EB950627B9003E0092463B /* Models */,
+				F6EB950327B8F7CB0092463B /* Web Service */,
+				F65A49BF27B8271A005B688B /* Custom Cell */,
+				F65A49BA27B82131005B688B /* Controllers */,
 				F65A49A627B81998005B688B /* AppDelegate.swift */,
 				F65A49A827B81998005B688B /* SceneDelegate.swift */,
-				F65A49AA27B81998005B688B /* ViewController.swift */,
 				F65A49AC27B81998005B688B /* Main.storyboard */,
 				F65A49AF27B81999005B688B /* Assets.xcassets */,
 				F65A49B127B81999005B688B /* LaunchScreen.storyboard */,
 				F65A49B427B81999005B688B /* Info.plist */,
 			);
 			path = GoodWheather;
+			sourceTree = "<group>";
+		};
+		F65A49BA27B82131005B688B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F65A49BB27B8214F005B688B /* WeatherListTableViewController.swift */,
+				F65A49BD27B82184005B688B /* AddWheatherCityController.swift */,
+				F6EB951427B91C020092463B /* SettingsTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F65A49BF27B8271A005B688B /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F65A49C027B82744005B688B /* WheatherTableViewCell.swift */,
+			);
+			path = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		F6EB950327B8F7CB0092463B /* Web Service */ = {
+			isa = PBXGroup;
+			children = (
+				F6EB950427B8F7E40092463B /* WebService.swift */,
+			);
+			path = "Web Service";
+			sourceTree = "<group>";
+		};
+		F6EB950627B9003E0092463B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F6EB950727B900520092463B /* WheatherResponse.swift */,
+				F6EB951227B909670092463B /* WeatherViewModel.swift */,
+				F6EB951627B91C170092463B /* SettingsViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F6EB950927B904630092463B /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				F6EB950A27B9047B0092463B /* AddWeatherViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		F6EB950C27B904A80092463B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F6EB950D27B904BD0092463B /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F6EB950F27B905510092463B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F6EB951027B905630092463B /* Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +224,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F65A49AB27B81998005B688B /* ViewController.swift in Sources */,
+				F6EB951127B905630092463B /* Extensions.swift in Sources */,
+				F6EB950527B8F7E40092463B /* WebService.swift in Sources */,
+				F6EB950B27B9047B0092463B /* AddWeatherViewModel.swift in Sources */,
+				F6EB951327B909670092463B /* WeatherViewModel.swift in Sources */,
+				F6EB950827B900520092463B /* WheatherResponse.swift in Sources */,
+				F65A49BE27B82184005B688B /* AddWheatherCityController.swift in Sources */,
+				F65A49BC27B8214F005B688B /* WeatherListTableViewController.swift in Sources */,
 				F65A49A727B81998005B688B /* AppDelegate.swift in Sources */,
+				F6EB951727B91C170092463B /* SettingsViewModel.swift in Sources */,
+				F65A49C127B82744005B688B /* WheatherTableViewCell.swift in Sources */,
 				F65A49A927B81998005B688B /* SceneDelegate.swift in Sources */,
+				F6EB950E27B904BD0092463B /* Constants.swift in Sources */,
+				F6EB951527B91C020092463B /* SettingsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

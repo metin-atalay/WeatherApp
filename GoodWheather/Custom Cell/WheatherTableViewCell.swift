@@ -8,6 +8,9 @@
 import UIKit
 
 class WheatherTableViewCell: UITableViewCell {
+    
+    @IBOutlet weak var cityNameLabel: UILabel!
+    @IBOutlet weak var temperature: UILabel!
 
     override func awakeFromNib() {
         super.awakeFromNib()
